@@ -6,18 +6,7 @@ const BookList = () => {
   const displayBookList = harryPotterBooks.map((book) => (
     <BookCard book={book} />
   ));
-  return (
-    <div
-      style={{
-        display: "flex",
-        flexWrap: "wrap",
-        justifyContent: "center",
-        gap: "10px",
-      }}
-    >
-      {displayBookList}
-    </div>
-  );
+  return <div className="bookList">{displayBookList}</div>;
 };
 
 export default BookList;

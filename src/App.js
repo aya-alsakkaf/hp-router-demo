@@ -1,4 +1,6 @@
 import "./App.css";
+import BookList from "./Components/BookList";
+import HouseList from "./Components/HouseList";
 import Navbar from "./Components/Navbar";
 import "./assets/css/main.css";
 function App() {

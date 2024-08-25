@@ -17,16 +17,7 @@ const HouseList = () => {
       >
         Explore Hogwarts Houses!
       </h1>
-      <div
-        style={{
-          display: "flex",
-          gap: "10px",
-          padding: "10px",
-          justifyContent: "center",
-        }}
-      >
-        {displayHouses}
-      </div>
+      <div className="houseList">{displayHouses}</div>
     </>
   );
 };
